@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/uvalert-android.iml" filepath="$PROJECT_DIR$/uvalert-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/uvalert-android.iml" filepath="$PROJECT_DIR$/.idea/uvalert-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/uvalert-android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/uvalert-android.app.iml" />
     </modules>
   </component>
 </project>
