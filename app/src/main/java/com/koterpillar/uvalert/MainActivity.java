@@ -6,14 +6,13 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-
+// import uvalert-android.
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.net.MalformedURLException;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
-    private static Server server;
+public class MainActivity extends AppCompatActivity { private static Server1 server;
 
 @Override   // // mjh
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         try {
-            this.server = new Server("https://uvalert.koterpillar.com");
+         //   this.server = new Server1("https://uvalert.koterpillar.com");
+            this.server = new Server1("https://uvalert.koterpillar.com");
         } catch (MalformedURLException e) {
             this.server = null;
         }

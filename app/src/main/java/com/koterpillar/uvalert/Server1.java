@@ -7,11 +7,11 @@ import java.net.URL;
  * Server location
  */
 
-public class Server {
+public class Server1 {
     private URL baseUrl;
     private URL locationsUrl;
 
-    public Server(String baseUrl) throws MalformedURLException {
+    public Server1(String baseUrl) throws MalformedURLException {
         this.baseUrl = new URL(baseUrl);
         this.locationsUrl = new URL(this.baseUrl, "/locations");
     }
