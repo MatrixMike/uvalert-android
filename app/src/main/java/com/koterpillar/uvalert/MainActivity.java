@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         final MainActivity self = this;
 
-        final Spinner locationSpinner = (Spinner) locationSpinner.findViewById();   // mjh
+        final Spinner locationSpinner = (Spinner) findViewById(R.id.location);   // mjh
         locationSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
